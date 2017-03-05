@@ -29,7 +29,7 @@ const states = {
           walk: 'walking'
         }
       },
-      waking: {
+      walking: {
         transitions: {
           stop: 'standing',
           speedUp: 'running'
