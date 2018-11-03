@@ -1,8 +1,5 @@
 # HSM
 
-![Issues](https://img.shields.io/github/issues/fabiospampinato/hsm.svg)
-[![NPM version](https://img.shields.io/npm/v/@fabiospampinato/hsm.svg)](https://www.npmjs.com/package/@fabiospampinato/hsm)
-
 Hierarchical State Machine implementation, with support for guards and enter/exit events.
 
 It extends [FSM](https://github.com/fabiospampinato/FSM), read its documentation before reading this.
