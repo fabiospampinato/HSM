@@ -1,6 +1,6 @@
 {
   "name": "@fabiospampinato/hsm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hierarchical State Machine implementation, with support for guards and enter/exit events.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
