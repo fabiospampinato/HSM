@@ -8,7 +8,7 @@
     "clean:dist": "rimraf dist",
     "clean:coverage": "rimraf coverage .nyc_output",
     "clean": "npm run clean:dist && npm run clean:coverage",
-    "compile": "tsc --skipLibCheck",
+    "compile": "tsc --skipLibCheck && tstei",
     "compile:watch": "tsc --skipLibCheck --watch",
     "test": "ava",
     "test:watch": "ava --watch",
@@ -40,7 +40,7 @@
     "automaton"
   ],
   "dependencies": {
-    "@fabiospampinato/fsm": "^1.0.0",
+    "@fabiospampinato/fsm": "^1.0.5",
     "@types/lodash": "^4.14.52",
     "lodash": "^4.17.4"
   },
@@ -49,6 +49,7 @@
     "ava-spec": "^1.1.0",
     "nyc": "^10.1.2",
     "rimraf": "^2.6.0",
-    "typescript": "~2.2.0"
+    "typescript": "~2.2.0",
+    "typescript-transform-export-interop": "^1.0.0"
   }
 }
